@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.top-block {
+    background-color: rgba(52, 50, 50, 0.564);
+    padding: 10px 50px;
+    position: sticky;
+    top: 0px;
+}
+.top-block article {
+    /* background-color: yellow; */
+    width: 60%;
+    margin: auto;
+}
+nav ul li {
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 24px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: orange; 
+    font-size: 18px;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid orangered;
+}
+header {
+    background-image: linear-gradient(to bottom right, yellow, rgb(153, 253, 3), rgba(207, 250, 142, 0.972));
+    padding: 30px 50px;
+    height: 300px;
+}
+header article {
+    display: inline-block;
+    /* background-color: red; */
+}
+.info-block {
+    position: relative;
+    top: -100px;
+    left: 120px;
+}
+.info-block div {
+    font-size: 28px;
+    font-variant: small-caps;
+    color: brown;
+}
+.My-image {
+    background-image: url("/potfolio/images/img2.jpg");
+    height: 280px;
+    width: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+
+}
+
+.obj-block {
+    padding: 50px 150px;
+    box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+}
+.obj-block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: brown;
+}
+.obj-block p {
+    font-size: 24px;
+    text-align: center;
+}
+.skills-block {
+    padding: 50px 150px;
+}
+.skills-block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: brown;
+}
+.card {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 140px;
+}
+.card:hover {
+    box-shadow: 0px 0px 10px 1px
+    rgba(128, 128, 128, 0.8);
+}
+.card h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(119, 176, 34);
+}
+.card div {
+    font-size: 24px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border-left: 3px solid rgb(0, 255, 149);
+}
+.card div:hover {
+    background-color: gainsboro;
+}
+.skills-block {
+    padding: 100px 80px;
+    box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+}
+.edu-block {
+    padding: 100px 80px;
+}
+.edu-block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: brown;
+}
+.edu {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+.edu:hover {
+    box-shadow: 0px 0px 10px 1px
+    rgba(128, 128, 128, 0.8);
+}
+.edu h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(119, 176, 34);
+}
+.edu p {
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 5px 5px;
+}
+.edu p:hover {
+    background-color: rgba(245, 231, 175, 0.834);
+}
+.edu-block {
+    /* padding: 50px 150px; */
+    box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+}
+.edu-10{
+    /* background-color: blue; */
+    position: absolute;
+
+}
+.project-block {
+    padding: 50px 40px;
+}
+.project-block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: brown;
+}
+.project-block h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(119, 176, 34);
+}
+.project-block ul li {
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 5px 5px;
+}
+.project-block h4:hover {
+    background-color: rgb(207, 243, 153);
+}
+.project-block {
+    box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+}
+.ach-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ach-block h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: brown;
+}
+.ach-block h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(119, 176, 34);
+    /* text-align: center; */
+}
+.achive {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    /* margin-left: 20px; */
+    /* background-color: red; */
+}
+.achive:hover {
+    box-shadow: 0px 0px 10px 1px
+    rgba(128, 128, 128, 0.8);
+}
+.ach-block div {
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    /* background-color: red; */
+}
+.ach-block p:hover {
+    background-color: rgba(245, 231, 175, 0.834);
+}
